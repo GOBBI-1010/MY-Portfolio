@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import "tailwindcss";
+@theme {
+  --color-white1:#ffffff;
+  --color-brown: #53423e;
+  --color-lightBrown: #645550;
+  --color-darkBrown: #2c2523;
+  --color-black: #1e1917;
+  --color-white: #f1e1d9;
+  --color-cyan: #15d1e9;
+  --color-lightCyan: #88e5f0;
+  --color-darkCyan: #009fb3;
+  --color-orange: #fb9718;
+  --color-lightOrange: #fac27b;
+  --color-darkOrange: #d28422;
+  --color-grey: #626965;
+  --color-lightGrey: #978580;
+  --color-darkGrey: #3f4441;
+}
+
+.fade-up {
+  animation: fadeUp 0.6s ease-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Default Light Mode */
+body {
+  @apply bg-white1 ;
+}
+.text-white {
+  @apply text-black;
+}
+button.text-white {
+  @apply text-white;
+}
+a.text-white {
+  @apply text-inherit hover:text-cyan;
+}
+/* Dark Mode */
+
+
+.dark body {
+  @apply bg-darkBrown;
+
+}
+.dark .text-white {
+  @apply text-white;
+}
