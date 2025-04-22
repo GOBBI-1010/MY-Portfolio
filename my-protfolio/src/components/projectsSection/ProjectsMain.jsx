@@ -5,37 +5,44 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
+    name: "Apple-airpods-Clone",
+    year: "Apr-2025",
+    align: "right",
+    image: "/images/website-img-6.jpg", // Fixed path
+    link: "https://airpods-cbg.netlify.app/",
+  },
+  {
     name: "Spotify-clone",
     year: "Jan-2025",
-    align: "right",
+    align: "left",
     image: "/images/website-img-0.jpg", // Fixed path
     link: "https://spotify-cbg.netlify.app/",
   },
   {
     name: "Foodie.",
     year: "feb-2025",
-    align: "left",
+    align: "right",
     image: "/images/website-img01.jpg", // Fixed path
     link: "https://foodie-delivery-60033703633.development.catalystserverless.in/app/index.html",
   },
   {
     name: "Taxi-service",
     year: "Nov-2024",
-    align: "right",
+    align: "left",
     image: "/images/website-img-1.jpg", // Fixed path
     link: "https://taxi-booking-60033703633.development.catalystserverless.in/app/index.html",
   },
   {
     name: "Livi-Institute",
     year: "Nov-2024",
-    align: "left",
+    align: "right",
     image: "/images/website-img-2.jpg",
     link: "https://education-institute-60033703633.development.catalystserverless.in/app/index.html",
   },
   {
     name: "SK-Fitness GYM",
     year: "Dec-2024",
-    align: "right",
+    align: "left",
     image: "/images/website-img-3.jpg",
     link: "https://surl.li/cheeuw",
   },
@@ -43,7 +50,7 @@ const projects = [
   {
     name: "Nostra Mens-Cloth",
     year: "sep-2024",
-    align: "left",
+    align: "right",
     image: "/images/website-img-4.jpg",
     link: "https://nostra-60031289896.development.catalystserverless.in/app/index.html",
   },
@@ -51,7 +58,7 @@ const projects = [
   {
     name: "Apple-airpad",
     year: "Aug-2024",
-    align: "right",
+    align: "left",
     image: "/images/website-img-5.jpg",
     link: "https://www.figma.com/proto/B91xffNXCAYFuynpFZdjz6/apple2?node-id=0-1&t=H86OZdF0fny6vv9Z-1",
   },
